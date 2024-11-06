@@ -1,0 +1,94 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #504f4f;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+  display: inline-block;
+  padding: .5em;
+  color: rgb(196, 192, 192);
+  text-decoration: none;
+}
+.nav a:hover{
+    background-color:rgba(255, 255, 255, .3);
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.main-nav li{
+   padding:0 3% ; 
+}
+.main-header{
+    background-image: url("images/night-sky-colorful-3840x2160-12510.jpg");
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.owner-name{
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    font-family:"Tangerine";
+    font-weight: normal;
+    color: aliceblue;
+}
+.owner-name-large{
+    font-size: 4em;
+
+}
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.2em;
+}
+.about-band-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.main-footer{
+    background-color:rgb(55, 184, 184);
+    color: aliceblue;
+    padding: .25em 0;
+}
+.main-footer-container{
+   display: flex; 
+   align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.yt{
+    height: 40px;
+    width: 40px;
+}
+.footer-nav{
+    padding: 0 .5em;
+}

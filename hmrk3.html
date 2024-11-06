@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>register page</title>
+  </head>
+  <body>
+    <form
+      action="hmrk.html"
+      method="post"
+      enctype="application/x-www-form-urlencoded"
+    >
+      <fieldset>
+        <center>Register</center>
+        <div>
+          <label id="name">Account : </label>
+          <input
+            type="text"
+            name="Name"
+            placeholder="Please enter your name"
+            value="admin1"
+          />
+        </div>
+        <div>
+          <label id="Password">Password : </label>
+          <input
+            id="password"
+            type="password"
+            value="20051026"
+            name="password"
+            placeholder="Please enter your password"
+          />
+        </div>
+        <div>
+          <label id="Password">Password Confirm : </label>
+          <input
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Please Confirm password"
+          />
+        </div>
+
+        <div>
+          <label id="gender">Gender : </label>
+
+          <input type="radio" name="gender" />male
+          <input type="radio" name="gender" />female
+        </div>
+        <div>
+          Age :
+          <input type="name" style="width: 50px" />
+        </div>
+
+        <div>
+          <label id="date">Date of birth </label>
+          <input type="date" name="birth" />
+        </div>
+        <div>
+          <label for="nationality">Nationality : </label>
+          <select name="nationality" id="nationality">
+            <option value="China">China</option>
+            <option value="Morocco">Morocco</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="other">others</option>
+          </select>
+        </div>
+        <div>
+          <label for="Habits">Habits : </label>
+          <input type="checkbox" name="check" />Game
+          <input type="checkbox" name="check" />Football
+          <input type="checkbox" name="check" />Music
+          <input type="checkbox" name="check" />Painting
+          <input type="checkbox" name="check" />Photography
+        </div>
+        <div>
+          <label for="email">Email : </label>
+          <input type="email" placeholder="please enter your email" />
+        </div>
+        <div>
+          <label for="personal website">Personal website : </label>
+          <input type="url" placeholder="please enter your website" />
+        </div>
+        <div>
+          <label for="phone">Phone</label>
+          <input
+            type="tel"
+            placeholder="please input your phone number"
+            style="width: 194px"
+          />
+        </div>
+        <div>
+          <label for="identifier">Identifier : </label>
+          <input
+            type="text"
+            placeholder="please input your phone Identifier"
+            style="width: 203px"
+          />
+        </div>
+        <div>
+          <label for="Biography">Biography</label>
+          <textarea
+            name="Biography"
+            id="Biography"
+            style="height: 100px; width: 230px"
+          ></textarea>
+        </div>
+        <div>
+          <label for="avatar">Avatar : </label>
+          <input type="file" value="Choose file" placeholder="Choose File" />
+        </div>
+        <input type="reset" />
+        <input type="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
